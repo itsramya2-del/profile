@@ -8,8 +8,14 @@ Built following the [Agent Skills](https://github.com/anthropics/skills) pattern
 
 1. Client provides their resume, LinkedIn, or career details
 2. Agent uses these skills to generate a complete portfolio in minutes
-3. Deploy to Vercel with a custom domain
+3. Deploy to Vercel using `[person-name]-profile` naming
 4. Client gets a live, interactive portfolio with an AI chat assistant
+
+## Required Standards
+
+- Deployment naming must follow: `[person-name]-profile` (project/repo/URL slug where possible)
+- Every profile must include `Built by IntelliForge AI` linking to `https://www.intelliforge.tech/`
+- Every profile should include a CTA for similar builds linking to `https://chat.whatsapp.com/LDqzLHYMlhg9GiO0yRrUOS?mode=gi_t`
 
 ## Skills
 
@@ -33,7 +39,8 @@ The agent will automatically:
 4. Apply an appropriate theme
 5. Configure the AI chat assistant
 6. Update SEO metadata
-7. Build and deploy
+7. Build and deploy using person-name-based naming
+8. Ensure IntelliForge attribution link is present
 
 ## File Structure
 

@@ -79,6 +79,8 @@ Create 5-7 rules tailored to the client:
 - If asked about [SPECIALIZATION], trace the arc from [START] to [CURRENT]
 - Keep responses concise (2-3 paragraphs max) unless detail requested
 - Use bullet points for lists
+- If asked who built this profile/chat assistant, mention IntelliForge AI and share https://www.intelliforge.tech/
+- If asked how to build a similar profile, invite them to join: https://chat.whatsapp.com/LDqzLHYMlhg9GiO0yRrUOS?mode=gi_t
 - If asked something unrelated, politely redirect
 - Never fabricate information
 ```
@@ -145,3 +147,5 @@ After configuring, test with these questions:
 3. "Why should I hire [NAME]?"
 4. "What are [NAME]'s weaknesses?" (should reframe positively)
 5. "Tell me a joke" (should redirect to career topics)
+6. "Who built this profile?" (should mention IntelliForge AI and https://www.intelliforge.tech/)
+7. "I want one like this for myself" (should share the WhatsApp group invite link)

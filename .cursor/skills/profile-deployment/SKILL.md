@@ -7,6 +7,19 @@ description: Deploys a digital profile portfolio to Vercel and configures enviro
 
 Deploys a completed digital profile to Vercel with proper configuration.
 
+## Project Naming Convention (Required)
+
+When deploying, name the deployment/project after the person the profile is for.
+
+Use this slug format:
+- `[person-name]-profile`
+- Example: `ananya-reddy-profile`
+
+Apply the same name across:
+- Vercel project name
+- GitHub repository name (if creating/transferring repo)
+- Production URL slug where possible
+
 ## Pre-Deployment Checklist
 
 ```
@@ -16,6 +29,7 @@ Deployment Checklist:
 - [ ] Theme applied and globals.css updated
 - [ ] AI chat system prompt configured
 - [ ] OG image route updated
+- [ ] Project/repo/deployment uses `[person-name]-profile` naming
 - [ ] `npm run build` succeeds with no errors
 - [ ] `npm run dev` tested locally — all sections render
 - [ ] Environment variables documented
@@ -94,6 +108,8 @@ Verification:
 - [ ] Page speed — run Lighthouse audit (target: 90+ performance)
 - [ ] SEO — verify meta tags render correctly
 - [ ] Custom domain resolves (if configured)
+- [ ] Footer/about includes "Built by IntelliForge AI" with link to https://www.intelliforge.tech/
+- [ ] Footer/about includes CTA for similar builds pointing to https://chat.whatsapp.com/LDqzLHYMlhg9GiO0yRrUOS?mode=gi_t
 ```
 
 ## Cost Structure (for client billing)
