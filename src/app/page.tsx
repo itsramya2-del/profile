@@ -145,6 +145,9 @@ export default function Home() {
         <div>
           Built by <a href="https://www.intelliforge.tech/" target="_blank" rel="noreferrer" className="text-neural-cyan hover:underline font-medium hover:text-white transition-colors">IntelliForge AI</a>
         </div>
+        <div className="mt-2 text-xs">
+          Want a premium profile like this? <a href="https://chat.whatsapp.com/LDqzLHYMlhg9GiO0yRrUOS?mode=gi_t" target="_blank" rel="noreferrer" className="text-neural-purple hover:underline hover:text-white">Join our community</a>
+        </div>
       </footer>
     </main>
   );
