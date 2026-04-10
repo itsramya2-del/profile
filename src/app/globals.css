@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --neural-bg: #020617;
+  --neural-surface: #0f172a;
+  --neural-card: #1e293b;
+  --neural-border: #334155;
+  --neural-cyan: #06b6d4;
+  --neural-purple: #6366f1;
+  --neural-pink: #ec4899;
+  --neural-green: #10b981;
+  --neural-amber: #f59e0b;
+}
+
+@theme inline {
+  --color-neural-bg: var(--neural-bg);
+  --color-neural-surface: var(--neural-surface);
+  --color-neural-card: var(--neural-card);
+  --color-neural-border: var(--neural-border);
+  --color-neural-cyan: var(--neural-cyan);
+  --color-neural-purple: var(--neural-purple);
+  --color-neural-pink: var(--neural-pink);
+  --color-neural-green: var(--neural-green);
+  --color-neural-amber: var(--neural-amber);
+}
+
+body {
+  background-color: var(--neural-bg);
+  color: #f8fafc;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Glow utilities */
+.glow-cyan {
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.5), 0 0 30px rgba(6, 182, 212, 0.3);
+}
+
+.glow-purple {
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.5), 0 0 30px rgba(99, 102, 241, 0.3);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, var(--neural-cyan), var(--neural-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
