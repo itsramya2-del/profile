@@ -80,11 +80,10 @@ If asked about negatives, weaknesses, or red flags:
 
 export async function POST(req: Request) {
   const { messages } = await req.json();
-  const result = streamText({
-    // Using an example provider structure according to ai sdk pattern
+  const result = await streamText({
     model: openai('gpt-4-turbo'),
     system: SYSTEM_PROMPT,
     messages,
   });
-  return result.toDataStreamResponse();
+  return result.toTextStreamResponse();
 }
